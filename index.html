@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh Thuan</title>
+    <link rel="icon" href="images/icon-page.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div><a href="index.html" class="logo">Portfolio</a></div>
+            <div class ="nav-links">
+                <a href="index.html" class="home-link" >Home</a>
+                <a href="about.html" class="about-link">About</a>
+                <a href="contact.html" class="contact-link">Contact</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="home">
+            <div class="home-content">
+                <div class="text-area">
+                    <div class="text-box">
+                        <h2 class="text-1">Hi, my name is Thuan </h2> 
+                        <h1 class="text-3">I am from Ho Chi Minh City</h1>
+                        <h2 class="text-2">I am a student at <span class = "text-6">Nguyen Tat Thanh university</span></h2>
+                        <h1 class="text-4"> with major is <span class="text-7">Software Engineering</span></h1>
+                        <h2 class="text-5">I am learning <span class="text-8" id="typed">Html</span> and more</h2>
+                    </div>
+                    <div class="social-links text-5">
+                        <a href="https://www.facebook.com/ThuanTran2674" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook"></i>
+                            <span class="name-icon">Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span class="name-icon">Instagram</span>
+                        </a>
+                        <a href="https://github.com/Thuantran520" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                            <span class="name-icon">GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="image-box">
+                    <img src="images/avatar2.jpg" alt="avatar" class="avatar">
+                </div>
+            </div>
+        </section>
+        <section class="my-projects">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <div class="project-cards">
+                <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+                    <div class="project-viewport">
+                        <div class="project-wrapper" id="projectWrapper">
+                            <div class="projects-1">
+                                <h2> Web</h2>
+                                <h3> This is a web project</h3>
+                                <a href="https://thuantran520.github.io/yamate2/" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                            </div>
+                            <div class="projects-1">
+                                <h2> My First Profile</h2>
+                                <h3> This is my first profile project</h3>
+                                <a href="https://thuantran520.github.io/profile/" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                            </div>
+                            <div class="projects-1">
+                                <h2> My Portfolio</h2>
+                                <h3> This is my portfolio project</h3>
+                                <a href="index.html" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Thuan Tran. All rights reserved.</p>
+    </footer>
+</body>
+
+<script src="script/script.js"></script>
+<script src="script/checklist.js"></script>
+<script src="offline-game/script.js"></script>
+<script src="script/typed.js"></script>
